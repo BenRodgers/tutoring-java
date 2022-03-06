@@ -1,11 +1,12 @@
 
 public class Tute_1 {
 
-    
-    public String num(int value) {
+    public static String q1_num(int value) {
         String number = "";
-
         switch(value) {
+            case 0:
+                number = "Zero";
+                break;
             case 1:
                 number = "One";
                 break;
@@ -43,14 +44,12 @@ public class Tute_1 {
         return number;
     }
 
-    public String num_stringarray(int value) {
-
+    public static String q_1_num_stringarray(int value) {
         String[] string_array = {"Zero", "One", "Two", "Three", "Four", 
         "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
 
         return string_array[value];
     }
-
 
     public static int fib(int value) {
            
@@ -61,11 +60,17 @@ public class Tute_1 {
     }
 
     public static void main( String args[] ) {
-        int total = 4;
-         for (int i= 0; i < total; i++)
-            {System.out.print(fib(i) + " ");}
-  }
+    //    String number_as_word = q1_num(11);
+    //    System.out.println(number_as_word);
+    String number_as_word = q_1_num_stringarray(4);
+    System.out.println(number_as_word);
 
-
-
+    }
+        // int total = 4;
+        //  for (int i= 0; i < total; i++)
+        //     {System.out.print(fib(i) + " ");}
 }
+
+
+
+
