@@ -6,7 +6,7 @@ class HelloWorld {
     // It takes an array of strings as it's parameter/args -> String[] args =  ["Hello", "my", "name", "is", "Ben"]
     //System.out.println(...) -> print
     public static void main(String[] args) {
-        System.out.println("Hello, World!"); 
+        System.out.println("Hello!"); 
     }
 }
 
